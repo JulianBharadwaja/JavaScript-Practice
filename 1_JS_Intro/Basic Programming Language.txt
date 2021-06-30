@@ -1,0 +1,17 @@
+Build Blocks of Programming Language
+
+-Variables
+-DataTypes 
+-Operators
+-Expressions
+
+Variables => used to store some data in a container. e.g => container (Variable) = 3 (Value); 
+
+DataTypes => tells JS what type of value we have stored in our variables. There are many data types in JS e.g number, string, boolean, null, undefined, objects, etc.
+
+Operators => used to perform some actions on variables. e.g => + - * / %;
+
+** use terminal to test out the code with "node filename"
+
+var is a keyword to create new variable in JS
+

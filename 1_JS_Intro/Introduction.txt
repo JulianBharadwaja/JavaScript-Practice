@@ -1,0 +1,7 @@
+JS is a light-weight, cross-platform, object-oriented programming language. 
+JS is one of the 3 core technologies of web.
+JS is used to interactivity and dynamic effects to its content of HTML and CSS.
+
+Front-End => Reactjs Angularjs Vuejs Emberjs
+Back-End => Nodejs Meteorjs Backbonejs
+
