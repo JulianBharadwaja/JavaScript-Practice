@@ -1,1 +1,1 @@
-This is self-practice JS.
+This is self-practice JS. (Julian Bharadawja)
