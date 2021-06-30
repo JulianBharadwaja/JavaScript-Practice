@@ -1,0 +1,3 @@
+Number has two type 1) Integer 2) Float{decimal number}
+
+JS always store number as 64 bit floating point. where number is store in first 52 bit (0-51) and exponent 11 bit (52-62) and last part save for the sign
