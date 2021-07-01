@@ -24,3 +24,4 @@ console.log( ++p + w++ + " " + ++n);
 else {
 console.log(--p + q-- + " " + --n);
 }//8 1
+
