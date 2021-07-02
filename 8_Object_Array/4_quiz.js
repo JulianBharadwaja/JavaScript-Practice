@@ -154,4 +154,7 @@ var arr6 = arr4.filter(function(val) {
   })
 console.log(arr6);
 
-console.log(arr5.push(arr6[0]))
+console.log(arr5)
+arr5.push(arr6[0])
+arr5.push(arr6[1])
+console.log(arr5)
