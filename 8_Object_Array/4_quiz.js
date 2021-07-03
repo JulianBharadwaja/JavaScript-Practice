@@ -133,6 +133,7 @@ var arr4=[100, 2, 1, 10];
 //     }
 // }
 
+
 // var arr5 = [];
 //     for(var i in this) {   
 //         if(arr2.indexOf(this[i]) > -1){
