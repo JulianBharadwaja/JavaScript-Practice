@@ -127,3 +127,20 @@ function sufflixChanger(numArr) {
 }
 
 sufflixChanger([22, 13, 301, 404, 35, 99]);
+
+const item = [
+    { name: "Milk Bottle", price: 30, discountPercent: 10},
+    { name: "Cheese", price: 10, discountPercent: 0},
+    { name: "Packaged Meat (1kg)", price: 100, discountPercent: 5},
+  ]
+
+const calculatePrices = (itemArr) => {
+    let totalPriceArray = itemArr.map(item => item.price - (item.price * (item.discountPercent/100)));
+    let total = 0
+    let totalPrice = totalPriceArray.forEach(price => {
+        total += price;
+    });
+    console.log(total)
+}
+
+calculatePrices(item);
