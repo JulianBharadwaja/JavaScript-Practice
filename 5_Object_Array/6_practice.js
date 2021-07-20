@@ -143,4 +143,14 @@ const calculatePrices = (itemArr) => {
     console.log(total)
 }
 
+const calculateNormalPrices = (itemArr) => {
+    
+    let total = 0;
+    for (let i = 0; i < itemArr.length; i++) {
+        total = total + itemArr[i].price - (itemArr[i].price * itemArr[i].discountPercent/100);
+    }
+    console.log(total);
+}
+
 calculatePrices(item);
+calculateNormalPrices(item);
