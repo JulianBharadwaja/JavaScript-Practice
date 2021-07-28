@@ -1,0 +1,15 @@
+Document Object Model (DOM)
+
+When a web page is loaded, the browser creates a DOM of the page. It is the tree representation of the HTML document. This DOM tree can be modified with the help of JS.
+
+the main html element => root node ... every node has one parent but can have more than one children. 
+
+JS can add new HTML elements and attributes and also changed them. add css styeles, remove elements and attributes and add and listen to HTML eenets like onClick, onScroll.
+
+Selecting HTML element
+
+getElelementById('name')
+
+querySelector => allow you to use css selectors to select HTML elements. It is the new way in JS to select HTML elements.
+There are 2 selectors: 1 querySelector() => only the first HTML element matching the query.
+                       2 querySelectorAll() => all the HTML elemetns matching the query.
